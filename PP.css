@@ -1,0 +1,118 @@
+/* PP.css */
+
+/* Style untuk elemen header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style untuk elemen navigasi */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style untuk elemen konten utama */
+main {
+    padding: 20px;
+}
+
+/* Style untuk judul seksi */
+h2 {
+    color: #4CAF50;
+}
+
+/* Style untuk gambar */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Style untuk formulir kontak */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style untuk footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* PP.css */
+
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Untuk memberi jarak antara tabel dengan konten di bawahnya */
+}
+
+/* Gaya untuk sel header tabel */
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Gaya untuk sel dalam tabel */
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Gaya untuk judul tabel */
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
